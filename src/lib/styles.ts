@@ -9,6 +9,8 @@ interface BarProps {
 const Bar = styled.View`
   background-color: ${(props: BarProps) => props.barColor};
   height: ${(props: BarProps) => props.barHeight};
+  border-bottom-width: 1px;
+  border-bottom-color: #3c3c3c;
 `;
 
 const TabTrack = styled.View`
